@@ -22,7 +22,7 @@ from tensorflow.python.ops.rnn_cell_impl import RNNCell
 from tensorflow.python.platform import tf_logging as logging
 from tensorflow.python.util import nest
 
-
+#Attention layer
 class AttentionGRUCell(RNNCell):
     """Gated Recurrent Unit incoporating attention (cf. https://arxiv.org/abs/1603.01417).
        Adapted from https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/rnn/python/ops/core_rnn_cell_impl.py
