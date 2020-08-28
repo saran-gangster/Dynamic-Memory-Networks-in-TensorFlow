@@ -15,6 +15,7 @@ Adapted from Stanford's [cs224d](http://cs224d.stanford.edu/) assignment 2 start
 | `babi_input.py` | prepares bAbI data for input into DMN |
 | `attention_gru_cell.py` | contains a custom Attention GRU cell implementation |
 | `fetch_babi_data.sh` | shell script to fetch bAbI tasks (from [DMNs in Theano](https://github.com/YerevaNN/Dynamic-memory-networks-in-Theano)) |
+| `Dynamic-Memory-Networks-in-Tensorflow` | notebook that was upgraded to train and test the model in google colab |
 
 ## Usage
 Install [TensorFlow r1.4](https://www.tensorflow.org/install/)
@@ -30,6 +31,7 @@ Use 'dmn_train.py' to train the DMN+ model contained in 'dmn_plus.py'
 Once training is finished, test the model on a specified task
 
 	python dmn_test.py --babi_task_id 2
+Update or you can just run the notebook in [google colab]()
 
 The l2 regularization constant can be set with -l2-loss (-l). All other parameters were specified by [Xiong et al](https://arxiv.org/abs/1603.01417) and can be found in the 'Config' class in 'dmn_plus.py'.
 
