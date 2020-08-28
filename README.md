@@ -1,5 +1,5 @@
 # Dynamic Memory Networks in TensorFlow
-
+Google colab [link](https://colab.research.google.com/drive/1aaxidxaWuCJNcau15THaVJmc7w4ILM4g?usp=sharing)
 DMN+ implementation in TensorFlow for question answering on the bAbI 10k dataset.
 
 Structure and parameters from [Dynamic Memory Networks for Visual and Textual Question Answering](https://arxiv.org/abs/1603.01417) which is henceforth referred to as Xiong et al.
